@@ -1,0 +1,48 @@
+.Manager
+  h4
+    margin-top: 30px
+    margin-bottom: 30px
+  .chats
+    .client
+      text-align: center
+      input
+        width: 100%
+      h5
+        margin-bottom: 10px
+        background-color: #0275d8
+        padding: 5px
+        border-radius: 8px
+
+      .messages
+        display: flex
+        align-items: flex-end
+        color: #000
+        justify-content: flex-end
+        margin: 10px 0
+        background-color: #fff
+        padding: 10px
+        overflow: auto
+        ul
+          width: 100%
+          height: 40vh
+          li
+            text-align: right
+            display: flex
+            align-items: flex-end
+            justify-content: flex-end
+            padding: 10px
+            .time
+              font-size: 10px
+              color: #000
+              font-weight: bold
+              margin: 0 10px
+            .text
+              background-color: grey
+              padding: 10px 20px
+              border-radius: 10px
+              margin-top: 10px
+            &.manager
+              justify-content: flex-start
+              .text
+                background-color: #5cb3fd
+                color: #fff

@@ -1,0 +1,57 @@
+.Chat
+  border: 3px solid darkslateblue
+  border-radius: 5px
+  position: fixed
+  width: 40vw
+  max-height: 100vh
+  bottom: 0
+  right: 0
+  .loading
+    height: 50vh
+    display: flex
+    justify-content: center
+    align-items: center
+  .header
+    background-color: darkslateblue
+    color: #fff
+    padding: 10px
+    cursor: pointer
+  .message
+    display: block
+    div
+      display: flex
+      align-items: flex-end
+      color: #000
+      justify-content: flex-end
+      margin: 10px 0
+      .time
+        font-size: 10px
+        color: #000
+        font-weight: bold
+        margin: 0 10px
+      .text
+        background-color: grey
+        padding: 10px 20px
+        border-radius: 10px
+      &.manager
+        justify-content: flex-start
+        .text
+          background-color: #5cb3fd
+          color: #fff
+  .messages
+    .error
+      color: red
+      text-align: center
+      height: 50vh
+      padding-top: 50%
+      font-weight: bold
+    ul
+      padding: 10px 10px 0 10px
+      width: 100%
+      height: 50vh
+      overflow: auto
+  .footer
+    background-color: lightgrey
+    padding: 15px 10px
+
+
